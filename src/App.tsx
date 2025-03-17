@@ -14,7 +14,7 @@ let supprime:boolean=false;
     if(ref1.current)
   {      
   const a=ref1.current.innerText;
-    ref1.current.innerText+=a.slice(0,a.length-1)
+    ref1.current.innerText=a.slice(0,a.length-1)
   }
   }
 
